@@ -1,0 +1,54 @@
+# =========================
+# Code Composer Studio / Eclipse
+# =========================
+.metadata/
+.settings/
+.launches/
+.externalToolBuilders/
+
+# Workspace / embedded browser / cache
+.jxbrowser.userdata/
+.cache/
+tmp/
+temp/
+
+# =========================
+# Build outputs
+# =========================
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# Generated binaries / maps / logs
+*.out
+*.obj
+*.o
+*.d
+*.pp
+*.map
+*.lst
+*.asm.lst
+*.log
+*.dep
+
+# CCS generated temp files
+*.mk
+subdir_vars.mk
+subdir_rules.mk
+objects.mk
+sources.mk
+
+# =========================
+# OS / editor noise
+# =========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# =========================
+# Optional: ignore local target configs
+# Eðer ccxml dosyalarýný paylaþmak istemezsen aç
+# targetConfigs/
+# *.ccxml
+# =========================
